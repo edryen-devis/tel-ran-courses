@@ -1,0 +1,12 @@
+
+**** Build of configuration Debug for project 10_02_2020_P1_CoffeeM ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -ocoffee2.o ..\coffee2.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -ocoffeemach.o ..\coffeemach.c
+..\coffeemach.c: In function 'main':
+..\coffeemach.c:22: error: 'choice' undeclared (first use in this function)
+..\coffeemach.c:22: error: (Each undeclared identifier is reported only once
+..\coffeemach.c:22: error: for each function it appears in.)
+Build error occurred, build is stopped
+Time consumed: 508  ms.  

@@ -1,0 +1,52 @@
+/*
+ * Barista.c
+ *
+ *  Created on: Feb 22, 2020
+ *      Author: Tel-ran.de
+ */
+#include<stdio.h>
+
+int main() {
+	printf ("Pleas choose your drink \n");
+	printf ("1-Cappuchino 2-Americano 3-Espresso \n");
+	int button;
+	fflush (stdout);
+	scanf ("%d", &button);
+	barista(button);
+
+
+	return 0;
+}
+
+void barista(int button){
+if(button ==1){
+	cappuchino();
+}
+if(button==2){
+	americano();
+}
+if(button==3){
+	espresso();
+}
+
+}
+void cappuchino(){
+	coffee(40);
+	milk(60);
+}
+void americano(){
+	water(60);
+	coffee(40);
+}
+void espresso(){
+	coffee(100);
+}
+void water(int ml){
+	printf("added %d ml of water \n",ml);
+}
+void coffee(int ml){
+	printf("added %d ml of coffee \n",ml);
+}
+void milk(int ml){
+	printf("added %d ml of milk \n",ml);
+}

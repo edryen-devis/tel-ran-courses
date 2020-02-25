@@ -1,0 +1,14 @@
+/*
+ * main.c
+ *
+ *  Created on: Jan 27, 2020
+ *      Author: Edryen
+ */
+#include<stdio.h>
+int main(){
+	int number;
+	print("Enter your number, please");
+	scanf("%d", &number);
+	printf("We doubled your number: %d", number*2);
+	return 0;
+}

@@ -1,0 +1,9 @@
+
+**** Build of configuration Debug for project 05_02_2020_P2_SimpleNumber_Loop ****
+
+**** Internal Builder is used for build               ****
+gcc -o05_02_2020_P2_SimpleNumber_Loop.exe simplenumber.o
+c:/wascana/mingw/bin/../lib/gcc/mingw32/4.4.1-dw2/../../../../mingw32/bin/ld.exe: cannot open output file 05_02_2020_P2_SimpleNumber_Loop.exe: Permission denied
+collect2: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 185  ms.  

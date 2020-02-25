@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project 05_02_2020_P4_SumOfInternalNumbers ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -ointernalsum.o ..\internalsum.c
+gcc -o05_02_2020_P4_SumOfInternalNumbers.exe internalsum.o
+Build complete for project 05_02_2020_P4_SumOfInternalNumbers
+Time consumed: 383  ms.  

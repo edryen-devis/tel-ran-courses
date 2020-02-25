@@ -1,0 +1,11 @@
+
+**** Build of configuration Debug for project 12_02_2020_P2_StarsInSquares ****
+
+**** Internal Builder is used for build               ****
+gcc -o12_02_2020_P2_StarsInSquares.exe stars.o massivesP1.o
+massivesP1.o: In function `main':
+C:\Users\Tel-ran.de\Desktop\Edryen\12_02_2020_P2_StarsInSquares\Debug/../massivesP1.c:11: multiple definition of `main'
+stars.o:C:\Users\Tel-ran.de\Desktop\Edryen\12_02_2020_P2_StarsInSquares\Debug/../stars.c:13: first defined here
+collect2: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 182  ms.  

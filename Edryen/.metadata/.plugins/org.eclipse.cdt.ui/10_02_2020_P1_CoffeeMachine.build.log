@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project 10_02_2020_P1_CoffeeMachine ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -ocoffee.o ..\coffee.c
+gcc -o10_02_2020_P1_CoffeeMachine.exe coffee.o
+Build complete for project 10_02_2020_P1_CoffeeMachine
+Time consumed: 390  ms.  

@@ -1,0 +1,12 @@
+/*
+ * pr.c
+ *
+ *  Created on: Feb 22, 2020
+ *      Author: Tel-ran.de
+ */
+int main(){
+
+ printf("open lesson \n");
+ printf("Im prigrammer \n");
+	return 0;
+}

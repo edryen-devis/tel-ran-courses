@@ -1,0 +1,11 @@
+
+**** Build of configuration Debug for project 10_02_2020_P3_PrintHelloLoop ****
+
+**** Internal Builder is used for build               ****
+gcc -o10_02_2020_P3_PrintHelloLoop.exe loopinloop.o hello.o
+hello.o: In function `main':
+C:\Users\Tel-ran.de\Desktop\Edryen\10_02_2020_P3_PrintHelloLoop\Debug/../hello.c:14: multiple definition of `main'
+loopinloop.o:C:\Users\Tel-ran.de\Desktop\Edryen\10_02_2020_P3_PrintHelloLoop\Debug/../loopinloop.c:11: first defined here
+collect2: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 223  ms.  

@@ -1,0 +1,10 @@
+
+**** Build of configuration Debug for project test ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -omain.o ..\main.c
+gcc -otest.exe main.o
+c:/wascana/mingw/bin/../lib/gcc/mingw32/4.4.1-dw2/../../../../mingw32/bin/ld.exe: cannot open output file test.exe: Permission denied
+collect2: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 398  ms.  

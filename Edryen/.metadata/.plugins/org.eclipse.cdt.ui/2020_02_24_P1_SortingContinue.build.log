@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project 2020_02_24_P1_SortingContinue ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -osorting.o ..\sorting.c
+gcc -o2020_02_24_P1_SortingContinue.exe sorting.o
+Build complete for project 2020_02_24_P1_SortingContinue
+Time consumed: 344  ms.  

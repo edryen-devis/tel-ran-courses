@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project Third_Lesson_Second_Try ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -omain.o ..\main.c
+gcc -oThird_Lesson_Second_Try.exe main.o
+Build complete for project Third_Lesson_Second_Try
+Time consumed: 406  ms.  

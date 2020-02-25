@@ -1,0 +1,10 @@
+
+**** Build of configuration Debug for project L3_27.01.2020_Conditions ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -oconditions.o ..\conditions.c
+gcc -oL3_27.01.2020_Conditions.exe conditions.o
+c:/wascana/mingw/bin/../lib/gcc/mingw32/4.4.1-dw2/../../../../mingw32/bin/ld.exe: cannot open output file L3_27.01.2020_Conditions.exe: Permission denied
+collect2: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 388  ms.  

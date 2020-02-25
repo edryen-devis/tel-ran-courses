@@ -1,0 +1,11 @@
+
+**** Build of configuration Debug for project 10_02_2020_P2_HW_Loops_3methods ****
+
+**** Internal Builder is used for build               ****
+gcc -o10_02_2020_P2_HW_Loops_3methods.exe printhelloloop.o loops3methods.o
+loops3methods.o: In function `main':
+C:\Users\Tel-ran.de\Desktop\Edryen\10_02_2020_P2_HW_Loops_3methods\Debug/../loops3methods.c:13: multiple definition of `main'
+printhelloloop.o:C:\Users\Tel-ran.de\Desktop\Edryen\10_02_2020_P2_HW_Loops_3methods\Debug/../printhelloloop.c:11: first defined here
+collect2: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 222  ms.  

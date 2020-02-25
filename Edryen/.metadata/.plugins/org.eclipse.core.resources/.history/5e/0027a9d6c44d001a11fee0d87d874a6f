@@ -1,0 +1,25 @@
+/*
+ * LearnLoopFor.c
+ *
+ *  Created on: Feb 12, 2020
+ *      Author: Tel-ran.de
+ */
+#include<stdio.h>
+void printEvenNumber();
+
+int main(){
+	printEvenNumber();
+	return 0;
+
+}
+
+void printEvenNumber(){
+	int i;
+	for(i=20; i>0; i=i-2){
+		printf("%d\n", i);
+	}
+
+
+}
+
+

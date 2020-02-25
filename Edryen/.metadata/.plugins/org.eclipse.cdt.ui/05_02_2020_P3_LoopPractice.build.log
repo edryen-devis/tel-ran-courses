@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project 05_02_2020_P3_LoopPractice ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -olooppractice.o ..\looppractice.c
+gcc -o05_02_2020_P3_LoopPractice.exe looppractice.o
+Build complete for project 05_02_2020_P3_LoopPractice
+Time consumed: 365  ms.  
